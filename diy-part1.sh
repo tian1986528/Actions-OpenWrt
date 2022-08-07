@@ -18,3 +18,8 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+src-git liuran001_packages https://github.com/liuran001/openwrt-packages
+src-git autotimeset https://github.com/sirpdboy/luci-app-autotimeset
+src-git luci-app-poweroff https://github.com/esirplayground/luci-app-poweroff
+src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adguardhome
+src-git openwrt-package https://github.com/Lienol/openwrt-package
